@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+}
+#acoesdisponiveisparacompra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#portfoliodeacoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}

@@ -87,3 +87,20 @@ function AtualizarQuantidadeAcao(indice){
     quantidadeacao.textContent = carteira[indice].quantidade
 
 }
+
+
+function MudarPrecos(){
+
+    const elementosPreco = document.getElementsByClassName("acaopreco");
+
+    for (let i = 0; i < acoes.length; i++) {
+
+        let precoatual = Number(acoes[i]["preco"])
+        let novopreco = Math.random() * Math.floor( precoatual * 1.3 - precoatual * 0.7 + 1)  +  precoatual * 0.7 + 1.3
+        elementosPreco[i].textContent = novopreco.toFixed(2);
+
+    }
+    
+    
+}
+setInterval(() => MudarPrecos(), 10000)
