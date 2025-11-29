@@ -4,7 +4,7 @@ let acoesdisponiveisparacompra = document.getElementById("acoesdisponiveisparaco
 let portfoliodeacoes= document.getElementById("portfoliodeacoes")
 let saldodisponivel = document.getElementById("saldodisponivel")
 
-saldodisponivel.value = 10000
+saldodisponivel.value = 30000
 
  
 function CarregarAcoes() {
